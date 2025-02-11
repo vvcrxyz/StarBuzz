@@ -19,7 +19,7 @@ public class WhippedCream extends Condiment {
 
     @Override
     public String getDescripcion() {
-        return beverage.getDescripcion() + ", WhippedCream";
+        return beverage.getDescripcion() + ",With WhippedCream";
     }
 
     public double getCosto() {

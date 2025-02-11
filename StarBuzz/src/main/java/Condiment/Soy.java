@@ -19,7 +19,7 @@ public class Soy extends Condiment {
 
     @Override
     public String getDescripcion() {
-        return beverage.getDescripcion() + ", Soy";
+        return beverage.getDescripcion() + ",With Soy";
     }
 
     public double getCosto() {

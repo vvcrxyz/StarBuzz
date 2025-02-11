@@ -19,7 +19,7 @@ public class Chocolate extends Condiment {
 
     @Override
     public String getDescripcion() {
-        return beverage.getDescripcion() + ", Chocolate";
+        return beverage.getDescripcion() + ",With Chocolate";
     }
 
     public double getCosto() {

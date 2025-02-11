@@ -19,7 +19,7 @@ public class Milk extends Condiment {
 
     @Override
     public String getDescripcion() {
-        return beverage.getDescripcion() + ", Milk";
+        return beverage.getDescripcion() + ",With Milk";
     }
 
     public double getCosto() {

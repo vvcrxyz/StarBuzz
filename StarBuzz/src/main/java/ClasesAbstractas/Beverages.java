@@ -10,7 +10,7 @@ package ClasesAbstractas;
  */
 public abstract class Beverages {
     
-    protected String descripcion;
+    protected String descripcion = "Sin bebida";
     
     public String getDescripcion(){
         return descripcion;

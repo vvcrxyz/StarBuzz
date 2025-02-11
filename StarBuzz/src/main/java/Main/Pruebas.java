@@ -23,25 +23,26 @@ public class Pruebas {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        // Crear un Espresso sin ingredientes
+        
+        // Crear un Expresso sin ingredientes
         Beverages bebida = new Expresso();
-        System.out.println(bebida.getDescripcion() + " -> $" + bebida.getCosto());
+        System.out.println(bebida.getDescripcion() + " ------ $" + bebida.getCosto());
 
-        // Agregarle Leche
+        // Agregarle Milk
         bebida = new Milk(bebida);
-        System.out.println(bebida.getDescripcion() + " -> $" + bebida.getCosto());
+        System.out.println(bebida.getDescripcion() + " ------ $" + bebida.getCosto());
 
         // Agregarle Chocolate
         bebida = new Chocolate(bebida);
-        System.out.println(bebida.getDescripcion() + " -> $" + bebida.getCosto());
+        System.out.println(bebida.getDescripcion() + " ------ $" + bebida.getCosto());
 
-        // Agregarle Crema Batida
+        // Agregarle WhippedCream
         bebida = new WhippedCream(bebida);
-        System.out.println(bebida.getDescripcion() + " -> $" + bebida.getCosto());
+        System.out.println(bebida.getDescripcion() + " ------ $" + bebida.getCosto());
 
-        // Otro ejemplo: DarkRoast con Soja y Chocolate
+        //  DarkRoast con Soy y Chocolate
         Beverages bebida2 = new Chocolate(new Soy(new DarkRoast()));
-        System.out.println(bebida2.getDescripcion() + " -> $" + bebida2.getCosto());
+        System.out.println(bebida2.getDescripcion() + " ------ $" + bebida2.getCosto());
     }
         
 }
